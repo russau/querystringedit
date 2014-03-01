@@ -1,0 +1,8 @@
+div[contenteditable] {
+     border: 1px solid black;
+     max-height: 200px;
+     overflow: auto;
+ }
+ .qpair:hover, .qpair.hovered {
+     background-color:#f5f500;
+ }

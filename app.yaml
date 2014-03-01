@@ -12,6 +12,13 @@ handlers:
 - url: /
   upload: index.html
   static_files: index.html
+  
+- url: /css
+  static_dir: css 
+
+- url: /js
+  static_dir: js
+  
 
 libraries:
 - name: webapp2
